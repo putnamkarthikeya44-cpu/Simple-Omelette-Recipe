@@ -19,9 +19,18 @@
    
       }
       img {
-        width:50%;
-        height: 50%;
-        img-position: center;
+  width: 150px; /* Default size for desktops */
+  height: auto; 
+  display: block;
+}
+
+/* Adjustments for phones */
+@media (max-width: 767px) {
+  .logo {
+    width: 100px; /* Smaller size for mobile devices */
+    margin: 0 auto; /* Centers the logo on the phone screen */
+  }
+}
             
     }
     .box {
